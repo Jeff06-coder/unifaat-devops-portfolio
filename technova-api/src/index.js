@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.json({ 
-    message: 'TechNova API - Sistema de Pedidos',
+    message: 'TechNova API v2 - Online',
     version: '1.0.0'
   });
 });
