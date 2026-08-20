@@ -1,0 +1,8 @@
+Portfolio API rodando na porta 3000
+---
+Container running:
+CONTAINER ID   IMAGE                  COMMAND                  CREATED          STATUS          PORTS                                         NAMES
+d12d4f8a8ca9   portfolio-aula01:1.0   "docker-entrypoint.s…"   53 seconds ago   Up 52 seconds   0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp   portfolio-test
+---
+API Response:
+{"servico":"DevOps Portfolio API","aluno":"SEU NOME AQUI","ra":"SEU RA AQUI","aula":"01 - Fundamentos de Git e Docker","status":"online","timestamp":"2026-08-20T23:13:13.908Z"}
